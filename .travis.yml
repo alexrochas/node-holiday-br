@@ -5,3 +5,5 @@ node_js:
   - "6.2.2"
 before_script:
   - make update
+after_success:
+  - npm run-script coveralls

@@ -14,8 +14,8 @@
   "bin": {},
   "scripts": {
     "test": "mocha",
-    "coverage": "`npm bin`/istanbul cover ./test/index.js",
-    "coveralls": "npm run-script coverage && node bin/coveralls.js < coverage/lcov.info"
+    "coverage": "`npm bin`/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
+    "coveralls": "npm run-script coverage && node ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "dependencies": {
     "coveralls": "^2.11.14",
