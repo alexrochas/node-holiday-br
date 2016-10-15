@@ -5,7 +5,7 @@
   ],
   "name": "holiday-br",
   "description": "Brazilian holiday list and helper functions",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexrochas/node-holiday-br/"
