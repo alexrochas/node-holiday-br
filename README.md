@@ -2,7 +2,7 @@
 > Brazilian holiday list and helper functions
 
 [![Build Status](https://travis-ci.org/alexrochas/node-holiday-br.svg?branch=master)](https://travis-ci.org/alexrochas/node-holiday-br)
-[![Coverage Status](https://coveralls.io/repos/github/alexrochas/node-holiday-br/badge.svg?branch=master)](https://coveralls.io/github/alexrochas/node-holiday-br?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/alexrochas/node-holiday-br/badge.svg)](https://coveralls.io/github/alexrochas/node-holiday-br)
 
 ## Installing
 
