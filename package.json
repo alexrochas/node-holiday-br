@@ -1,5 +1,8 @@
 {
-  "author": ["David Oliveira <d.oliveira@prozone.org>", "Alex Lucas da Rocha Silva <alex.rochas@yahoo.com.br"],
+  "author": [
+    "David Oliveira <d.oliveira@prozone.org>",
+    "Alex Lucas da Rocha Silva <alex.rochas@yahoo.com.br"
+  ],
   "name": "holiday-br",
   "description": "Brazilian holiday list and helper functions",
   "version": "0.0.1",
@@ -10,9 +13,13 @@
   "main": "./index.js",
   "bin": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "`npm bin`/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
+    "coveralls": "npm run-script coverage && node ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "dependencies": {
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5"
   },
   "devDependencies": {
     "jscrap": "0.0.10",
