@@ -1,7 +1,7 @@
 # Node Holiday BR 
 > Brazilian holiday list and helper functions
 
-[![Build Status](https://travis-ci.org/alexrochas/node-holiday-br.svg?branch=travis)](https://travis-ci.org/alexrochas/node-holiday-br)
+[![Build Status](https://travis-ci.org/alexrochas/node-holiday-br.svg?branch=master)](https://travis-ci.org/alexrochas/node-holiday-br)
 
 ## Installing
 
