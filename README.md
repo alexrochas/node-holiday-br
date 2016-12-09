@@ -6,7 +6,7 @@
 
 ## Installing
 
-	npm install holiday-pt
+	npm install holiday-br
 
 ## Usage
 
