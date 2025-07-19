@@ -18,7 +18,7 @@
     "coveralls": "npm run-script coverage && node ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "dependencies": {
-    "coveralls": "^2.11.14",
+    "coveralls": "^3.0.0",
     "istanbul": "^0.4.5"
   },
   "devDependencies": {
